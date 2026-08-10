@@ -9,3 +9,5 @@ Copy-Item -Recurse -Force .\src-tauri\target\release\bundle\* -Destination $dest
 
 # 单独复制 exe 文件
 Copy-Item -Force .\src-tauri\target\release\mc-log-tool.exe -Destination $dest
+
+#路径记得更改
